@@ -1,0 +1,3 @@
+<?php require_once __DIR__ . '/../config.php'; require_admin(); ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title><?= e($page_title ?? 'Admin') ?></title><link rel="stylesheet" href="../assets/style.css"></head><body>
+<header class="site-header"><a class="brand" href="index.php">ShopEasy Admin</a><nav><a href="index.php">Dashboard</a><a href="categories.php">Categories</a><a href="products.php">Products</a><a href="logout.php">Logout</a><a href="../index.php">View Store</a></nav></header><main class="container">

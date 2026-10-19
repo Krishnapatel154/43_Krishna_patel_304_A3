@@ -1,0 +1,9 @@
+{
+  "name": "php-express-practicals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API used by PHP and a Node client that calls a PHP API",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
